@@ -1,0 +1,14 @@
+
+<div id="logIn">
+<div id="logBox">
+<h2>מערכת ניהול עובדים</h2>
+
+<input type="text" class="form-control" placeholder="User name" aria-label="Username" aria-describedby="basic-addon1" #name>
+<input type="password" class="form-control" placeholder="password" aria-label="Username" aria-describedby="basic-addon1" #pass>
+<br><br>
+<button type="button" class="btn btn-dark" (click)="logIn(name.value,pass.value)"> התחברות</button>
+<p style="color: red;">{{texlog}}</p>
+</div>
+
+</div>
+

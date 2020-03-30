@@ -1,0 +1,31 @@
+#add{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#add form{
+
+    width: 30%;
+    display: inline-block;
+    background-color:#1928285e;
+    padding: 30px;
+}
+
+#add .txt{
+    margin-right: 300px;
+}
+
+#add button{
+    margin: 20px;
+}
+
+#txtFill{
+    color: red;
+    font-size: 20px;
+    
+}
+#txtFill1{
+    color: green;
+    font-size: 20px;
+    
+}

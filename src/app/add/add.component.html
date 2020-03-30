@@ -1,0 +1,25 @@
+<div id="add">
+    <form>
+      <h3 style="color: white;">הוסף עובד</h3>
+        <div class="form-group">
+          <label for="exampleInputEmail1"><p class="txt"> Name:</p></label>
+          <input type="text" class="form-control"  aria-describedby="emailHelp" #name>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"><p class="txt">Country:</p></label>
+          <input type="text" class="form-control" #country>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1"><p class="txt">Salary:</p></label>
+            <input type="text" class="form-control"  #salary>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1"><p class="txt">Email:</p></label>
+            <input type="text" class="form-control"  #email>
+          </div>
+        <button type="button" ><a [routerLink]="['/work']"> חזור לטבלה</a></button>
+        <button type="button" (click)="addUser(name.value,country.value,salary.value,email.value)">הוסף</button>
+         <p id="txtFill1">{{txtFill1}}</p>
+         <p *ngIf="numOfadd">כרגע נוספו {{numOfadd}} עובדים חדשים</p>
+      </form>
+</div>

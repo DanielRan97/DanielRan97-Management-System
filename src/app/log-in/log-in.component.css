@@ -1,0 +1,28 @@
+
+#logBox{
+
+height: 300px;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 160px;
+text-align: center;
+color: white;
+background-color: #ffffff33;
+
+
+}
+
+.form-control{
+    width: 70% ;
+    margin-top: 35px ;
+    display: inline-block;
+    background-color: darkslategray;
+    color: white;
+    
+    
+}
+
+.btn-dark{
+    width: 70%;
+}

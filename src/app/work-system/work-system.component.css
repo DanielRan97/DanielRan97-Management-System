@@ -1,0 +1,72 @@
+#work{
+    margin-top: 70px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Bedit{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+#Bedit:hover{
+    background-color: cornflowerblue;
+}
+
+#Bdelete{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+#Bdelete:hover{
+    background-color: brown;
+}
+h1{
+    color: white;
+    margin-bottom: 93px;
+}
+#BlogOut{
+
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    
+    
+
+}
+#BlogOut:hover{
+    background-color: brown;
+    color: black;
+    
+}
+
+#top{
+    margin-bottom: 20px;
+}
+
+#addB{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    border:  1px solid green;
+}
+
+#addB:hover{
+    background-color: darkgreen;
+}
+
+#BlogOut{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.fas{
+    font-size: 10px;
+}
